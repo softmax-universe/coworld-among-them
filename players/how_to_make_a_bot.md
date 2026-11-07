@@ -12,9 +12,9 @@ For the public starter policy and tournament walkthrough, use:
 
 If docs, commands, runtime behavior, logs, or replays disagree while you build
 the player, preserve the evidence and file a GitHub issue. Use
-<https://github.com/Metta-AI/coworld-among-them/issues> for game docs,
+<https://github.com/softmax-universe/coworld-among-them/issues> for game docs,
 protocol, runtime, logs, or replays, and
-<https://github.com/Metta-AI/coworld/issues> for the Softmax play prompt or
+<https://github.com/softmax-universe/coworld/issues> for the Softmax play prompt or
 Coworld CLI. Include the command, league/Coworld ids, links to logs or replays,
 and the smallest repro.
 
@@ -41,10 +41,10 @@ Your player image can be written in any language. It must:
 
 Protocol references:
 
-- Bitscreen player protocol: <https://github.com/Metta-AI/bitworld/blob/master/docs/bitscreen_v1.md>
-- Global/replay viewer protocol: <https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md>
+- Bitscreen player protocol: <https://github.com/softmax-universe/bitworld/blob/master/docs/bitscreen_v1.md>
+- Global/replay viewer protocol: <https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md>
 - Public play guide: <https://softmax.com/play_amongthem.md>
-- Coworld spec: <https://github.com/Metta-AI/metta/blob/main/packages/coworld/src/coworld/COWORLD_README.md>
+- Coworld spec: <https://softmax.com/docs/coworld/overview>
 
 ## What The Player Sees
 

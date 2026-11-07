@@ -17,9 +17,9 @@ reference, not as a prerequisite for competing.
 
 If docs, commands, runtime behavior, logs, or replays disagree while you are
 building or submitting an Among Them policy, preserve the evidence and file a
-GitHub issue at <https://github.com/Metta-AI/coworld-among-them/issues>. For
+GitHub issue at <https://github.com/softmax-universe/coworld-among-them/issues>. For
 Softmax play prompt or Coworld CLI issues, file against
-<https://github.com/Metta-AI/coworld/issues>. Include the command, league/Coworld
+<https://github.com/softmax-universe/coworld/issues>. Include the command, league/Coworld
 ids, logs or replay links, and the smallest repro instead of silently working
 around the issue.
 
@@ -29,11 +29,11 @@ Among Them follows the Coworld package contract defined by Metta's `coworld`
 package:
 
 - Coworld spec:
-  <https://github.com/Metta-AI/metta/blob/main/packages/coworld/src/coworld/COWORLD_README.md>
+  <https://softmax.com/docs/coworld/overview>
 - Cogame runtime spec:
-  <https://github.com/Metta-AI/metta/blob/main/packages/coworld/src/coworld/COGAME_README.md>
+  <https://softmax.com/docs/coworld/build-a-coworld/player-runtimes>
 - Runner contract:
-  <https://github.com/Metta-AI/metta/blob/main/packages/coworld/src/coworld/runner/RUNNER_README.md>
+  <https://softmax.com/docs/coworld/build-a-player/protocol-and-runtime>
 
 The Coworld source manifest is `coworld_manifest_template.json`. It defines
 the game image, the default eight-player, two-imposter tournament variant with
@@ -63,9 +63,9 @@ Several source bots in this repository still read that name.
 The player websocket uses Bitscreen v1:
 
 - Player protocol:
-  <https://github.com/Metta-AI/bitworld/blob/master/docs/bitscreen_v1.md>
+  <https://github.com/softmax-universe/bitworld/blob/master/docs/bitscreen_v1.md>
 - Global/replay viewer protocol:
-  <https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md>
+  <https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md>
 
 A player can be written in any language as long as its container starts the
 player process, connects to the runner-supplied websocket URL, reads frames, and sends

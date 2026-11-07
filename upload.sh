@@ -11,7 +11,7 @@ fi
 
 METTA_REPO="${METTA_REPO:-${DEFAULT_METTA_REPO}}"
 COWORLD_SERVER="${COWORLD_SERVER:-https://softmax.com/api}"
-REGISTRY="${REGISTRY:-ghcr.io/metta-ai}"
+REGISTRY="${REGISTRY:-ghcr.io/softmax-universe}"
 CERTIFY_TIMEOUT="${CERTIFY_TIMEOUT:-180}"
 
 VERSION=""
@@ -42,7 +42,7 @@ Options:
 Environment:
   METTA_REPO             Metta checkout used for uv run coworld.
   COWORLD_SERVER         Observatory API URL.
-  REGISTRY               GHCR registry prefix, default ghcr.io/metta-ai.
+  REGISTRY               GHCR registry prefix, default ghcr.io/softmax-universe.
   CERTIFY_TIMEOUT        Coworld certifier timeout seconds.
   GHCR_USERNAME          Optional GHCR username.
   GHCR_TOKEN             Optional GHCR token. If omitted, gh auth token is used.

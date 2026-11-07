@@ -8,8 +8,8 @@ player websocket URL, and submit the uploaded image to an Among Them league.
 If a command here disagrees with `coworld --help`, follow the live CLI help.
 Also file a GitHub issue with the evidence so the next participant does not hit
 the same problem: use
-<https://github.com/Metta-AI/coworld-among-them/issues> for game docs, runtime,
-logs, or replays, and <https://github.com/Metta-AI/coworld/issues> for the
+<https://github.com/softmax-universe/coworld-among-them/issues> for game docs, runtime,
+logs, or replays, and <https://github.com/softmax-universe/coworld/issues> for the
 Softmax play prompt or Coworld CLI.
 
 ## TL;DR
@@ -52,13 +52,13 @@ ports, player names, slots, or tokens in a hosted policy.
 Protocol references:
 
 - Bitscreen player protocol:
-  <https://github.com/Metta-AI/bitworld/blob/master/docs/bitscreen_v1.md>
+  <https://github.com/softmax-universe/bitworld/blob/master/docs/bitscreen_v1.md>
 - Sprite global/replay protocol:
-  <https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md>
+  <https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md>
 - Coworld package spec:
-  <https://github.com/Metta-AI/metta/blob/main/packages/coworld/src/coworld/COWORLD_README.md>
+  <https://softmax.com/docs/coworld/overview>
 - Coworld runtime spec:
-  <https://github.com/Metta-AI/metta/blob/main/packages/coworld/src/coworld/COGAME_README.md>
+  <https://softmax.com/docs/coworld/build-a-coworld/player-runtimes>
 
 ## Minimal Image Shape
 
