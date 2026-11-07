@@ -34,24 +34,24 @@ jobs:
       matrix:
         include:
           - name: commissioner
-            image: metta-ai/coworld-among-them-commissioner
+            image: softmax-universe/coworld-among-them-commissioner
             context: ./commissioner
             file: ./commissioner/commissioners/Dockerfile
             build_args: |
               COMMISSIONER_KEY=config_driven
               RULESET_STRATEGY_CONFIG_NAME=among_them
           - name: reporter
-            image: metta-ai/coworld-among-them-reporter
+            image: softmax-universe/coworld-among-them-reporter
             context: ./reporter
             file: ./reporter/among_them/among_them_summarizer/Dockerfile
             build_args: ""
           - name: grader
-            image: metta-ai/coworld-among-them-grader
+            image: softmax-universe/coworld-among-them-grader
             context: ./grader/graders/among_them/among_them_grader
             file: ./grader/graders/among_them/among_them_grader/Dockerfile
             build_args: ""
           - name: diagnoser
-            image: metta-ai/coworld-among-them-diagnoser
+            image: softmax-universe/coworld-among-them-diagnoser
             context: ./diagnoser/diagnosers/among_them/among_them_diagnoser
             file: ./diagnoser/diagnosers/among_them/among_them_diagnoser/Dockerfile
             build_args: ""
