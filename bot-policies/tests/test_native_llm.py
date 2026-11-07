@@ -74,8 +74,9 @@ class NativeLlmTest(unittest.TestCase):
             server.server_close()
             thread.join()
         for path, headers, body in requests:
+            headers = {name.lower(): value for name, value in headers.items()}
             self.assertEqual(path, '/v1/messages')
             self.assertEqual(body['model'], 'anthropic/claude-sonnet-4.6')
             self.assertNotIn('anthropic_version', body)
             self.assertNotIn('x-api-key', headers)
-            self.assertNotIn('Authorization', headers)
+            self.assertNotIn('authorization', headers)

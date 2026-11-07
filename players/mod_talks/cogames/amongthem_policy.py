@@ -503,6 +503,7 @@ class _AnthropicController:
         if endpoint:
             self._client = anthropic.Anthropic(
                 base_url=endpoint.rstrip("/"), api_key="sidecar", max_retries=0,
+                default_headers={"Authorization": anthropic.omit, "X-Api-Key": anthropic.omit},
             )
             self._model = os.getenv("COWORLD_LLM_MODEL", "anthropic/claude-sonnet-4.5")
             return

@@ -313,3 +313,4 @@ Uploaded language players use `COWORLD_LLM_ENDPOINT` and native Messages request
 `COWORLD_LLM_MODEL` overrides their local model setting. Upload these policies
 with Coworld 0.1.56 or newer and `--use-llm`. Each platform player pod is charged
 to its own seat; local AWS and direct-provider modes remain available locally.
+The mod_talks Python policy requires Anthropic SDK 1.11.0 or newer.
